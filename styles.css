@@ -1,0 +1,63 @@
+body {
+    color: white;
+    background: rgb(255, 177, 111);
+    margin: 0px;
+    font-family: "Matemasie", sans-serif;
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom: solid 2px rgb(254, 249, 217);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(254, 249, 217);
+}
+
+.chamada {
+    background: rgb(255, 177, 111);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 185%;
+}
+p {
+font-size: 180%;
+}
+
+img {
+    height: 170px;
+}
+
+.categoria-videos {
+    margin-left: 5%;
+    display: flex;
+ overflow-x: auto;
+ gap: 15px;   
+}
+
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+
+}
+h2 {
+padding-left: 5%;
+}
+
+.categoria-videos img {
+    opacity: 0.80;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(226,121,59);
+}
